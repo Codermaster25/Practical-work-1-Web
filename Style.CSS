@@ -1,0 +1,166 @@
+git add .html {
+  scroll-behavior: smooth;
+}
+body {
+background-color: black;
+}
+
+h1,h2{
+    color: white;
+    font-style:Verdana;
+    text-align: center;
+}
+p{
+    text-align:left;
+    font-style:Verdana;
+    color: white;
+}
+
+.kata2{
+    text-align: center;
+    font-style:Verdana;
+    color: white;
+}
+
+.synopsis-box {
+  max-width: 600px;
+  margin: 30px 0 30px 40px; /* top, right, bottom, left */
+  padding: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 12px;
+  background: linear-gradient(135deg,#000000, #ffbf0096, #000000);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  transition: transform 0.3s ease;
+  text-align: left;
+  
+}
+
+.synopsis-box:hover {
+  transform: scale(1.02);
+  
+}
+.overlay text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+}
+
+.row{
+
+    color: rgb(255, 255, 255);
+    text-align: center;}
+
+li{
+    color: white;
+    display: inline;
+    margin: 5px;
+}
+a{
+    color: white;
+    
+   
+}
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.img-fluid {
+  width: 200px !important;
+  height:280px !important;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+ .custom-navbar {
+    font: Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0); /* Fully transparent */
+  box-shadow: none;
+  border: none;
+}
+
+.top-image {
+opacity: 0.5;
+width: 100%;
+height: auto;
+
+}
+
+
+.custom-navbar .nav-link,
+.custom-navbar .dropdown-item,
+.custom-navbar .btn {
+  color: #d8892f; /* Change to any color you like */
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .dropdown-item:hover {
+  color: #db8946; /* Optional: hover color */
+}
+
+.custom-navbar .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.571); /* Slightly transparent */
+}
+
+.btn {
+  border: 1px solid #d8892f; /* Border color */
+  background-color: #d8892f;
+  
+}
+.custom-navbar .btn-outline-success {
+  color: #000000; /* Text color */
+  border-color: #d38b26; /* Border color */
+}
+
+.custom-navbar .btn-outline-success:hover {
+  background-color: #ffb700;
+  color: #000000; /* Text color on hover */
+}
+
+.container-fluid {
+  position: top;
+  width: center;
+  height: auto;
+  background-size: auto;
+  background-position: center;
+}
+
+.custom-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0); /* Optional: semi-transparent background */
+}
+
+.song-button {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #ffb700;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 30px 0 30px 90px; 
+  text-align: center;
+}
+
+.song-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.849);
+}
+

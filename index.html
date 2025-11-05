@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Coming in cinema!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="Stylesheet" href="Style.CSS"/>
+
+</head>
+<body>
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"crossorigin="anonymous">
+</script>
+
+<nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Movie</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#synopsis">Synopsis</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           OPTION
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">TIME TABLE</a></li>
+            <li><a class="dropdown-item" href="#">AVAILABLE</a></li>
+            <li><a class="dropdown-item" href="#">RERUN</a></li>
+            <li><a class="dropdown-item" href="#">GENRE</a></li>
+            <li><a class="dropdown-item" href="#">BOOKING</a></li>
+            <li><a class="dropdown-item" href="#">EVENT</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="https://www.instagram.com/boboiboy?igsh=MXIybnpodHB1OHkxMQ==">SOCIAL MEDIA</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Coming soon</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class = "background-wrapper">
+<img src = "C:\Users\FARINO SAGAL\Downloads\Assignment\HTML\PW1\ImagesPW\Boboiboy the movie 2 banner.jpg" alt="Top Overlay" class="top-image">
+<div class = "content">
+</div>
+
+<div class="video-banner">
+    <video autoplay muted loop>
+      <source src="C:\Users\FARINO SAGAL\Downloads\Assignment\HTML\PW1\ImagesPW\BoBoiBoy Movie 2  OFFICIAL TRAILER - In Cinemas August 8!.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="banner-content">
+      <h1>BOBOIBOY THE MOVIE 2</h1>
+    </div>
+  </div>
+
+    <script>
+         const banner = document.querySelector('.video-banner');
+  banner.addEventListener('click', () => {
+    const video = banner.querySelector('video');
+    video.muted = !video.muted;
+    video.play();
+  });
+
+</script>
+<footer>RynMovie Copyrights 2025</footer>
+   
+    <div class="container my-5">
+ <div class="row">
+ <div class="col-md-6">
+ <img src="C:\Users\FARINO SAGAL\Downloads\Assignment\HTML\PW1\ImagesPW\GengBoboiboy-removebg-preview.png" class="Boboiboygeng" alt="BBB2" width="300px" height="auto">
+ </div>
+ <div class="col-md-5 d-flex align-items-center">
+ <p>
+Boboiboy merupakan sebuah siri animasi televisyen Malaysia yang dihasilkan oleh Animonsta Studios. 
+Siri ini mengisahkan tentang seorang budak lelaki bernama Boboiboy yang mempunyai kuasa untuk mengawal elemen-elemen alam seperti cahaya, daun, api, air, tanah, angin, dan petir.
+ Dengan bantuan rakan-rakannya yang juga mempunyai kuasa elemen, Boboiboy berjuang melawan makhluk asing yang ingin mencuri kuasa elemen tersebut untuk tujuan jahat.
+ </p>
+ </div>
+ </div>
+</div>
+
+
+<audio id="mySong" src="C:\Users\FARINO SAGAL\Downloads\Assignment\HTML\PW1\ImagesPW\ssvid.net--Bunkface-Masih-Di-Sini-BoBoiBoy-The-Movie-OST.mp3" preload="auto"></audio>
+<div class=" ps-3 d-block ">
+<button onclick="playSong()" class="song-button">Play Boboiboy The Movie OST</button>
+</div>
+<script>
+const song = document.getElementById("mySong");
+let isPlaying = false;
+
+function playSong() {
+  if (isPlaying) {
+    song.pause();
+  } else {
+    song.play();
+  }
+  isPlaying = !isPlaying;
+}
+</script>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+    Boboiboy
+    </div>
+    <div class="col">
+     Fang
+    </div>
+    <div class="col">
+      Gopal
+    </div>
+    <div class="col">
+      Ying
+    </div>
+    <div class="col">
+      Yaya
+    </div>
+  </div>
+</div>
+
+<div class="container my-4">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+    
+    <!-- Character Card 1 -->
+    <div class="col">
+      <div class=" text-center p-3">
+        <img src="C:\Users\FARINO SAGAL\Downloads\Assignment\HTML\PW1\ImagesPW\BoBoiBoyGalaxy.png" class="img-fluid mb-2" alt="BoBoiBoy" >
+        <p>Elemntal power user</p>
+      </div>
+    </div>
+
+    <!-- Character Card 2 -->
+    <div class="col">
+      <div class=" text-center p-3">
+        <img src="C:\Users\FARINO SAGAL\Downloads\Assignment\HTML\PW1\ImagesPW\Fang.png" class="img-fluid mb-2" alt="Fang" >
+      <p>Shadow manipulation</p>
+      </div>
+    </div>
+
+    <!-- Character Card 3 -->
+    <div class="col">
+      <div class=" text-center p-3">
+        <img src="C:\Users\FARINO SAGAL\Downloads\Assignment\HTML\PW1\ImagesPW\Gopal.png" class="img-fluid mb-2" alt="Gopal" >
+        <p>Molecule manipulation</p>
+      </div>
+    </div>
+
+    <!-- Character Card 4 -->
+    <div class="col">
+      <div class=" text-center p-3">
+        <img src="C:\Users\FARINO SAGAL\Downloads\Assignment\HTML\PW1\ImagesPW\ying.png" class="img-fluid mb-2" alt="Ying" >
+        <p>Time manipulation</p>
+      </div>
+    </div>
+
+    <!-- Character Card 5 -->
+    <div class="col">
+      <div class="text-center p-3">
+        <img src="C:\Users\FARINO SAGAL\Downloads\Assignment\HTML\PW1\ImagesPW\yaya.png"class="img-fluid mb-2" alt="Yaya" >
+        <p>Gravity Manipulation</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id = "synopsis" class="synopsis-box">
+  <h2>Synopsis</h2>
+  <p>
+   BoBoiBoy dan rakan-rakannya telah diserang oleh seorang penjahat bernama Retak'ka, yang merupakan pengguna asal kuasa elemen BoBoiBoy.
+   Dia berhasrat untuk merampas semula kuasa elemen tersebut daripada BoBoiBoy demi menjadi individu paling berkuasa dan menguasai galaksi.
+   Bersama rakan-rakannya, BoBoiBoy perlu mencari jalan untuk menewaskan Retak'ka sebelum kuasa itu jatuh ke tangan yang salah.
+  </p>
+</div>
+
+<H2>COMING ON CINEMA 8 AUGUST 2019!</H2>
+<p class="kata2">Jangan lupa tonton di pawagam berdekatan anda!</p>
+ </body>
+</html>
